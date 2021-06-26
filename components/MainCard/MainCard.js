@@ -1,11 +1,12 @@
 import { Container } from "../Common/Container"
 import { LogoContainer } from "../SocialMedias/LogoContainer"
+import Image from 'next/image'
 
 export const MainCard = () => {
     return (
         <div>
         <Container padding>
-            <img src='/aguilera_agustin.svg'></img>
+            <Image src='/aguilera_agustin.svg'></Image>
             <h1>Agustín Aguilera</h1>
             <h5>Full Stack Developer</h5>
             <hr/>

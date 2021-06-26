@@ -1,5 +1,5 @@
 
-export const Title = ({children}) => {
+export const Title = ({children, white}) => {
     return (
         <h4 align='center'>
             {children}
@@ -8,6 +8,7 @@ export const Title = ({children}) => {
                             font-size:3rem;
                             margin: 0;
                             margin-bottom: 0.5rem;
+                            color:${white&&('white')}
                         }
                 `}</style>
         </h4>

@@ -21,6 +21,7 @@ export const Description = () => {
                     background: #8170EE;
                     margin: 1.5rem auto;
                     border-radius: 8px;
+                    margin-bottom: 3rem;
                 }
                 p{
                     width:90%;

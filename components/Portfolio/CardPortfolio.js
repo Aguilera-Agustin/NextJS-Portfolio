@@ -1,10 +1,11 @@
 import { Container } from '../Common/Container'
 import { FaGithub } from 'react-icons/fa'
+import Image from 'next/image'
 
 export const CardPortfolio = ({data}) => {
     return (
         <Container>
-            <img src={data.img}></img>
+            <Image src={data.img}></Image>
             <h5>{data.title}</h5>
             <div className='line' />
             <p align='center'>{data.content}</p>
