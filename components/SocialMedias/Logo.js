@@ -1,7 +1,7 @@
 export const Logo = ({data}) => {
     return (
         <>
-        <a href={data.href}>
+        <a href={data.href} rel="nofollow">
             {data.icon}
         </a>
 

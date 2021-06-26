@@ -16,10 +16,10 @@ export const CardPortfolio = ({data}) => {
             <p align='center'>{data.content}</p>
             <hr/>
             <div className='footer'>
-                <a href={data.link1}>
+                <a href={data.link1} rel="nofollow">
                     {data.icon1}
                 </a>
-                <a href={data.link2}>
+                <a href={data.link2} rel="nofollow">
                     {data.icon2}
                 </a>
             </div>

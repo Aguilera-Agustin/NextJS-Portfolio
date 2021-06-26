@@ -4,9 +4,12 @@ export const AppLayout = ({children}) => {
     return (
         <>
         <Head>
-            <title>Mi portfolio</title>
-            <link rel="preconnect" href="https://fonts.googleapis.com" />
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+            <title>Agustin Aguilera - Portfolio</title>
+            <meta charset="UTF-8" key='charset'/>
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" key='equiv'/>
+            <meta name="description" content="Agustin Aguilera portfolio personal - desarrollador fullstack orientado a WEB." key="description"/>
+            <meta name="viewport" content="initial-scale=1.0, width=device-width" key="viewport" />
+
             <link href='https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap' rel="stylesheet" />
         </Head>
             <main>

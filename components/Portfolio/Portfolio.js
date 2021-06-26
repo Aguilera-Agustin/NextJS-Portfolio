@@ -18,8 +18,8 @@ export const Portfolio = () => {
         {
             title: 'JustList',
             content: 'Aplicación administrativa a fin de brindar una solución rápida y satisfactoria para crear notas. En este sitio usted podrá agregar categorías en donde posteriormente creará sus notas personalizadas, las cuales podrá modificar y eliminar. - MERN',
-            link1: 'https://github.com/Aguilera-Agustin/Colins-Shifts',
-            link2: 'https://colinshifts.netlify.app/',
+            link1: 'https://github.com/Aguilera-Agustin/JustList-FrontEnd',
+            link2: 'https://just-list.netlify.app/',
             img: '/justlist.png',
             icon1: <FaGithubAlt/>,
             icon2: <FaGlobe/>
@@ -27,7 +27,7 @@ export const Portfolio = () => {
         {
             title: 'LinkGenerator',
             content: 'Aplicación para que un usuario final pueda pagar el precio en dolares declarado por el administrador, el cual podrá seleccionar los métodos de pagos deseados además del tiempo de duración de cada URL. - MercadoPago | Criptomonedas | Transferencia.',
-            link1: 'https://github.com/Aguilera-Agustin/Colins-Shifts',
+            link1: 'https://github.com/Aguilera-Agustin/-FRONT-LinkGenerator',
             link2: 'https://colinshifts.netlify.app/',
             img: '/linkgenerator.png',
             icon1: <FaGithubAlt/>,
@@ -41,7 +41,7 @@ export const Portfolio = () => {
             <div>
                 {
                     cards.map((eachCard)=>(
-                        <CardPortfolio data={eachCard} key={eachCard.link1}/>
+                        <CardPortfolio data={eachCard} key={eachCard.link1+eachCard.link2}/>
                     ))
                 }
             </div>

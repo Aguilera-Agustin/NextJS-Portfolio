@@ -27,9 +27,6 @@ export const Description = () => {
                 .container{
                     margin-top: 7rem;
                 }
-                .eachIcon{
-                    margin: 0 0.3rem;
-                }
                 .logo__container{
                     width:100%;
                     display:flex;
@@ -37,9 +34,11 @@ export const Description = () => {
                     margin-top: 1.5rem;
                     margin-bottom: 0.3rem;
                 }
-
+                .eachIcon{
+                    margin: 0 0.15rem;
+                }
                 .line{
-                    width:60%;
+                    width:85%;
                     height:0.1rem;
                     background: #8170EE;
                     margin: 0 auto;
@@ -58,6 +57,9 @@ export const Description = () => {
                     color: #7e838c;
                 }
                 @media screen and (min-width: 900px){
+                .eachIcon{
+                    margin: 0 0.3rem;
+                }
                 p{
                     width: 50%
                 }
