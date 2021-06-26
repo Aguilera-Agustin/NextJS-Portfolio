@@ -16,7 +16,7 @@ export const LogoContainer = () => {
             icon: <FaLinkedin/>
         },
         {
-            href: '#3',
+            href: '/AgustinAguileraCV.pdf',
             title: 'CV',
             icon: <FaRegAddressCard/>
         },

@@ -10,6 +10,7 @@ export const Container = ({children, padding=false}) => {
                 margin-top: 2rem;
                 border-radius: 8px;
                 display: flex;
+                border: 1px solid white;
                 align-items:center;
                 padding: 0;
                 flex-direction: column;
@@ -19,7 +20,7 @@ export const Container = ({children, padding=false}) => {
             }
             @media screen and (min-width: 900px){
                 div{
-                    width: 25vw;
+                    width: ${padding?('20vw'):('25vw')};
                 }
             }
             `}</style>

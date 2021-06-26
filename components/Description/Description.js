@@ -12,7 +12,7 @@ export const Description = () => {
 
             <style jsx>{`
                 .container{
-                    margin-top: 5rem;
+                    margin-top: 7rem;
                 }
 
                 .line{
@@ -21,7 +21,7 @@ export const Description = () => {
                     background: #8170EE;
                     margin: 1.5rem auto;
                     border-radius: 8px;
-                    margin-bottom: 3rem;
+                    margin-bottom: 7rem;
                 }
                 p{
                     width:90%;
@@ -36,7 +36,7 @@ export const Description = () => {
                 }
                 @media screen and (min-width: 900px){
                 p{
-                    width: 40%
+                    width: 50%
                 }
                 .line{
                     width:30%;

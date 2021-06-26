@@ -10,6 +10,7 @@ export const MainCard = () => {
                 width={150}
                 height={150} 
                 src='/aguilera_agustin.svg' 
+                alt='Agustin Aguilera'
             />
             <h1>Agustín Aguilera</h1>
             <h5>Full Stack Developer</h5>
@@ -21,16 +22,13 @@ export const MainCard = () => {
             div{
                 padding: 1rem 0;
             }
-            img{
-                width: 8rem;
-                margin-bottom: 0.5rem;
-            }
             h1{
                 font-size:1.5rem;
                 width:100%;
                 text-align:center;
                 font-weight: bold;
                 margin: 0.3rem;
+                margin-top:0.6rem;
             }
             h5{
                 margin: 0;

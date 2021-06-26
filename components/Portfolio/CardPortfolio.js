@@ -1,51 +1,54 @@
 import { Container } from '../Common/Container'
-import { FaGithub } from 'react-icons/fa'
 import Image from 'next/image'
 
 export const CardPortfolio = ({data}) => {
     return (
         <Container>
             <Image  
-                className='myImage'
                 width={500}
                 height={300} 
                 src={data.img}
+                quality={90}
+                alt={data.title}
             />
             <h5>{data.title}</h5>
-            <div className='line' />
+            <hr/>
             <p align='center'>{data.content}</p>
+            <hr/>
             <div className='footer'>
                 <a href={data.link1}>
-                    <FaGithub/>
+                    {data.icon1}
                 </a>
                 <a href={data.link2}>
-                    <FaGithub/>
+                    {data.icon2}
                 </a>
             </div>
 
             <style jsx>{`
-                .myImage{
-                    border-radius: 50%;
-                    transition: 0.3s ease all;
-                }
+                hr{
+                width:70%;
+                color: #ADB2BB;
+                opacity: 0.3
+            }
                 h5{
                     font-size: 1.3rem;
-                    margin: 1rem 0;
-                    margin-bottom: 0.5rem;
-                }
-                .myImage:hover{
-                    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5));   
+                    margin: 0;
+                    margin-top: 0.8rem;
+
                 }
                 a{
                     display:flex;
                     align-items:center;
                     justify-content:center;
-                    background: #8170EE;
-                    border-radius: 100px;
                     width:1.5rem;
                     height:1.5rem;
                     text-decoration:none;
                     color:black;
+                    transition: 0.3s ease all;
+
+                }
+                a:hover{
+                    color: gray;
                 }
                 .line{
                     width:60%;
@@ -61,13 +64,18 @@ export const CardPortfolio = ({data}) => {
                     border-radius: 0 0 8px 8px ;
                     display: flex;
                     align-items: center;
-                    justify-content: space-around;
+                    justify-content: center;
+                    margin-bottom:1rem;
+                }
+                a{
+                    margin: 0 1rem;
                 }
                 p{
                     padding: 0 0.8rem;
                     margin: 0.3rem 0;
                     font-size:0.9rem;
                     font-weight: 400;
+                    opacity: 0.85;
                 }
                 
                 `}</style>
