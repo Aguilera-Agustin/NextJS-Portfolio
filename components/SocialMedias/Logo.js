@@ -11,9 +11,7 @@ export const Logo = ({data}) => {
             a{
                 color:black;
                 transition: 0.3s ease all;
-                width:100%;
-                display:flex;
-                justify-content: center;
+                margin: 0 0.3rem;
             }
             a:hover{
                 color:gray;
