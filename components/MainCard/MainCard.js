@@ -16,19 +16,18 @@ export const MainCard = () => {
                 background: red;
                 margin: 0 auto;
                 width: 80vw;
-                position: relative;
-                top: 3rem;
+                margin-top: 2rem;
                 border-radius: 8px;
                 display: flex;
                 align-items:center;
                 padding: 1rem 0;
                 flex-direction: column;
                 background: #FFFFFF;
-                filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.2))
+                filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.15))
             }
             @media screen and (min-width: 900px){
                 .mainContainer{
-                    width: 30vw;
+                    width: 25vw;
                 }
             }
             img{

@@ -1,5 +1,3 @@
-import { FaGithub } from 'react-icons/fa'
-
 export const Logo = ({data}) => {
     return (
         <>
@@ -11,7 +9,7 @@ export const Logo = ({data}) => {
             a{
                 color:black;
                 transition: 0.3s ease all;
-                margin: 0 0.3rem;
+                margin: 0 0.5rem;
             }
             a:hover{
                 color:gray;
