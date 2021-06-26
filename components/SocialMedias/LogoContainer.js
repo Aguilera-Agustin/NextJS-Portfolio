@@ -1,5 +1,5 @@
 import { Logo } from "./Logo"
-import { FaGithub, FaLinkedin, FaRegAddressCard, FaMailBulk } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaRegAddressCard } from 'react-icons/fa'
 import { MdEmail } from "react-icons/md"
 
 export const LogoContainer = () => {

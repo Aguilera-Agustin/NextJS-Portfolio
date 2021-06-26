@@ -1,9 +1,10 @@
+import { Title } from "../Common/Title"
 
 export const Description = () => {
     return (
         <>
             <div className='container'>
-                <h4 align='center'>Sobre Mi</h4>
+                <Title>Sobre Mi</Title>
                 <p align='center'>Hola, mi nombre es Agustín y soy apasionado por la <span>informática</span> y las nuevas tecnologías, enfocandome el apartado WEB. Me encanta crear proyectos personales y compartirlos con mis amigos. A continuación podrá ver alguno de mis trabajos, espero les guste!</p>
                 <div className='line' />
             </div>
@@ -20,14 +21,6 @@ export const Description = () => {
                     background: #8170EE;
                     margin: 1.5rem auto;
                     border-radius: 8px;
-
-
-                }
-
-                h4{
-                    font-size:3rem;
-                    margin: 0;
-                    margin-bottom: 0.5rem;
                 }
                 p{
                     width:90%;
