@@ -6,7 +6,11 @@ export const MainCard = () => {
     return (
         <div>
         <Container padding>
-            <Image src='/aguilera_agustin.svg'></Image>
+            <Image 
+                width={150}
+                height={150} 
+                src='/aguilera_agustin.svg' 
+            />
             <h1>Agustín Aguilera</h1>
             <h5>Full Stack Developer</h5>
             <hr/>

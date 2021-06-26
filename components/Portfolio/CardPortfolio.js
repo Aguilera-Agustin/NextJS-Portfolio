@@ -5,7 +5,12 @@ import Image from 'next/image'
 export const CardPortfolio = ({data}) => {
     return (
         <Container>
-            <Image src={data.img}></Image>
+            <Image  
+                className='myImage'
+                width={500}
+                height={300} 
+                src={data.img}
+            />
             <h5>{data.title}</h5>
             <div className='line' />
             <p align='center'>{data.content}</p>
@@ -19,9 +24,8 @@ export const CardPortfolio = ({data}) => {
             </div>
 
             <style jsx>{`
-                img{
-                    width:100%;
-                    border-radius: 8px 8px 0 0;
+                .myImage{
+                    border-radius: 50%;
                     transition: 0.3s ease all;
                 }
                 h5{
@@ -29,7 +33,7 @@ export const CardPortfolio = ({data}) => {
                     margin: 1rem 0;
                     margin-bottom: 0.5rem;
                 }
-                img:hover{
+                .myImage:hover{
                     filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5));   
                 }
                 a{

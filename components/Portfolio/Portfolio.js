@@ -9,7 +9,7 @@ export const Portfolio = () => {
             content: 'Plataforma web app encargada de la generación y administración de turnos. En este proyecto usted podrá crear y administrar médicos asociados a un profesional (el cual usted también podrá administrar).',
             link1: 'https://github.com/Aguilera-Agustin/Colins-Shifts',
             link2: 'https://colinshifts.netlify.app/',
-            img: 'https://www.timeoutdubai.com/public/styles/full_img/public/images/2020/07/13/IMG-Dubai-UAE.jpg?itok=j4dmDDZa'
+            img: '/img.jpg'
         },
         
         {
@@ -17,14 +17,14 @@ export const Portfolio = () => {
             content: 'Plataforma web app encargada de la generación y administración de turnos. En este proyecto usted podrá crear y administrar médicos asociados a un profesional (el cual usted también podrá administrar).',
             link1: 'https://github.com/Aguilera-Agustin/Colins-Shifts',
             link2: 'https://colinshifts.netlify.app/',
-            img: 'https://www.timeoutdubai.com/public/styles/full_img/public/images/2020/07/13/IMG-Dubai-UAE.jpg?itok=j4dmDDZa'
+            img: '/img.jpg'
         },
         {
             title: 'ColinShifts',
             content: 'Plataforma web app encargada de la generación y administración de turnos. En este proyecto usted podrá crear y administrar médicos asociados a un profesional (el cual usted también podrá administrar).',
             link1: 'https://github.com/Aguilera-Agustin/Colins-Shifts',
             link2: 'https://colinshifts.netlify.app/',
-            img: 'https://www.timeoutdubai.com/public/styles/full_img/public/images/2020/07/13/IMG-Dubai-UAE.jpg?itok=j4dmDDZa'
+            img: '/img.jpg'
         },
 
     ]
