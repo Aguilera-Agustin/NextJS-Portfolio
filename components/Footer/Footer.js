@@ -3,7 +3,7 @@ import React from 'react'
 export const Footer = () => {
     return (
         <footer>
-            <p>Agustin Aguilera - Todos los derechos reservados - Inspirado en nithcodes</p>
+            <p align='center'>Agustin Aguilera - Todos los derechos reservados - Inspirado en nithcodes</p>
 
             <style jsx>{`
 
