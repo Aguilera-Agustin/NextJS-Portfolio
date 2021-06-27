@@ -5,7 +5,7 @@ export const AppLayout = ({children}) => {
         <>
         <Head>
             <title>Agustin Aguilera - Portfolio</title>
-            <meta charset="UTF-8" key='charset'/>
+            <meta charSet="UTF-8" key='charset'/>
             <meta httpEquiv="X-UA-Compatible" content="IE=edge" key='equiv'/>
             <meta name="description" content="Agustin Aguilera portfolio personal - desarrollador fullstack orientado a WEB." key="description"/>
             <meta name="viewport" content="initial-scale=1.0, width=device-width" key="viewport" />
