@@ -13,7 +13,7 @@ export const MainCard = () => {
                 alt='Agustin Aguilera'
             />
             <h1>Agustín Aguilera</h1>
-            <h5>Full Stack Developer</h5>
+            <h5>Desarrollador FullStack</h5>
             <hr/>
             <LogoContainer/>
         </Container>

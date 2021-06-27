@@ -28,7 +28,7 @@ export const Portfolio = () => {
             title: 'LinkGenerator',
             content: 'Aplicación para que un usuario final pueda pagar el precio en dolares declarado por el administrador, el cual podrá seleccionar los métodos de pagos deseados además del tiempo de duración de cada URL. - MercadoPago | Criptomonedas | Transferencia.',
             link1: 'https://github.com/Aguilera-Agustin/-FRONT-LinkGenerator',
-            link2: 'https://colinshifts.netlify.app/',
+            link2: 'https://youtu.be/AZh03iPuCvM',
             img: '/linkgenerator.png',
             icon1: <FaGithubAlt/>,
             icon2: <FaYoutube/>
