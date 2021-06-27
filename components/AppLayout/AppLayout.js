@@ -9,8 +9,6 @@ export const AppLayout = ({children}) => {
             <meta httpEquiv="X-UA-Compatible" content="IE=edge" key='equiv'/>
             <meta name="description" content="Agustin Aguilera portfolio personal - desarrollador fullstack orientado a WEB." key="description"/>
             <meta name="viewport" content="initial-scale=1.0, width=device-width" key="viewport" />
-
-            <link href='https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap' rel="stylesheet" />
         </Head>
             <main>
                 {children}
