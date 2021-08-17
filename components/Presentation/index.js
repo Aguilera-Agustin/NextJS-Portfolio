@@ -50,7 +50,7 @@ const Presentation = () => {
             </div>
             <hr/>
             <h5>Conectemos</h5>
-            <p className='connect_text'>I like talking and discussing about design, psychology and new products in market. I am also available for freelance and internship opportunities. Let's catch up!</p>
+            <p className='connect_text'>I like talking and discussing about design, psychology and new products in market. I am also available for freelance and internship opportunities. Lets catch up!</p>
             <p >agustin.aguilera424@gmail.com</p>
             <div className='blue_link_container'>
                 <div className='blue_link'>
@@ -67,7 +67,7 @@ const Presentation = () => {
                 </div>
             </div>
             <div style={ { marginTop: '2rem' } }>
-                <p style={{textAlign:'center'}}> Gracias por visitar mi portfolio! - Agustín Aguilera </p>
+                <p style={{ textAlign: 'center' }}> Gracias por visitar mi portfolio! - Agustín Aguilera </p>
             </div>
 
             <style jsx global>{`
