@@ -20,6 +20,7 @@ export const Card = ({ work }) => {
             <style jsx>{`
                 .card_container:hover{
                     box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
+                    background: #f7f7f7;
                 }
                 .card_container{
                     box-shadow: rgba(149, 157, 165, 0.1) 0px 8px 24px;
