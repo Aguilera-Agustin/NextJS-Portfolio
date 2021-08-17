@@ -1,6 +1,7 @@
 import { Divider } from '../Common/Divider'
 import { Cards } from './Cards'
 import { Contact } from './Contact'
+import { Footer } from './Footer'
 import { MainAvatar } from './MainAvatar'
 import { MainCurrent } from './MainCurrent'
 import { MainTitle } from './MainTitle'
@@ -18,10 +19,7 @@ const Presentation = () => {
             <Divider/>
             <h5>Conectemos</h5>
             <Contact/>
-            <div style={ { marginTop: '4rem' } }>
-                <p style={{ textAlign: 'center', fontSize: '0.8rem' }}> Gracias por visitar mi portfolio! - Agustín Aguilera </p>
-            </div>
-
+            <Footer/>
             <style jsx>{`
             .container{
                 margin-top:5rem;

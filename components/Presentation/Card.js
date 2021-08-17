@@ -6,7 +6,7 @@ export const Card = ({ work }) => {
         <>
             <Link href={`/project/${work.url}`}>
                 <div className='card_container'>
-                    <Image src={work.img} height={850}/>
+                    <Image src={work.img} height={800} />
                     <div className='card_body_container'>
                         <h6>{work.title}</h6>
                         <div className='card_target_container'>
