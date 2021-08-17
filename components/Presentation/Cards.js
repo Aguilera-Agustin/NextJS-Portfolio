@@ -14,16 +14,13 @@ export const Cards = () => {
             <style jsx>{`
                 div{
                     margin-top:1rem;
+                    margin-top: 1rem;
+                    display:grid;
+                    grid-auto-rows: 22rem;
+                    gap: 1rem;
+                    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr))
                 }
-                @media screen and (min-width:768px){
-                    div{
-                        margin-top: 1rem;
-                        display:grid;
-                        grid-template-columns: 1fr 1fr 1fr 1fr;
-                        grid-gap:20px
-                    }
-                }
-                `}
+            `}
             </style>
         </>
     )

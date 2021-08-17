@@ -1,24 +1,33 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export const Card = ({ work }) => {
     return (
         <>
-            <div className='card_container'>
-                <Image src={work.img} height={650}/>
-                <div className='card_body_container'>
-                    <h6>{work.title}</h6>
-                    <div className='card_target_container'>
-                        <p className='card_target_text'>Personal</p>
-                        <p className='card_target_text'>WEB</p>
+            <Link href={`/project/${work.url}`}>
+                <div className='card_container'>
+                    <Image src={work.img} height={850}/>
+                    <div className='card_body_container'>
+                        <h6>{work.title}</h6>
+                        <div className='card_target_container'>
+                            <p className='card_target_text'>Personal</p>
+                            <p className='card_target_text'>WEB</p>
+                        </div>
+                        <p className='card_abstract'>{work.abstract}</p>
                     </div>
-                    <p className='card_abstract'>{work.abstract}</p>
                 </div>
-            </div>
+            </Link>
             <style jsx>{`
+                .card_container:hover{
+                    box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
+                }
                 .card_container{
+                    box-shadow: rgba(149, 157, 165, 0.1) 0px 8px 24px;
+                    transition: 0.3s ease all;
                     border: 1px solid #c9c9c9;
                     border-radius:4px;
                     margin-bottom:1rem;
+                    cursor:pointer;
                 }
                 .card_body_container{
                     padding: 0.5rem 1rem;
