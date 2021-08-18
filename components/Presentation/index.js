@@ -23,7 +23,7 @@ const Presentation = () => {
             <style jsx>{`
             .container{
                 margin-top:5rem;
-                padding: 0 0.3rem;
+                padding: 0 1rem;
             }
 
             h1,h4, h5{

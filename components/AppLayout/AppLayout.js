@@ -18,7 +18,6 @@ export const AppLayout = ({ children }) => {
                 html,
                 body {
                     font-family: Raleway, sans-serif;
-                    padding:0 1.5vh;
                 }
 
             `}</style>
