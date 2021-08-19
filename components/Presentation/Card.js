@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import { Target } from './Target'
 
 export const Card = ({ work }) => {
     return (
@@ -9,15 +10,18 @@ export const Card = ({ work }) => {
                     <Image src={work.img} height={800} />
                     <div className='card_body_container'>
                         <h6>{work.title}</h6>
-                        <div className='card_target_container'>
-                            <p className='card_target_text'>Personal</p>
-                            <p className='card_target_text'>WEB</p>
+                        <div className='target_container'>
+                            <Target style={{ marginRight: '10px' }} text='Personal' color='#37352F'/>
+                            <Target text='WEB' color='#37352F'/>
                         </div>
                         <p className='card_abstract'>{work.abstract}</p>
                     </div>
                 </div>
             </Link>
             <style jsx>{`
+                .target_container{
+                    display:flex
+                }
                 .card_container:hover{
                     box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
                     background: #f7f7f7;
@@ -34,18 +38,7 @@ export const Card = ({ work }) => {
                     padding: 0.5rem 1rem;
                     overflow:hidden;
                 }
-                .card_target_container{
-                    display: flex;
-                }
-                .card_target_text{
-                    font-size:0.7rem;
-                    margin-right:0.5rem;
-                    background: #F5D3E6;
-                    padding:0 8px;
-                    border-radius:3px;
-                    font-weight: 500;
-                    color: #37352F;
-                }
+
                 .card_abstract{
                     font-size:0.8rem;
                 }
