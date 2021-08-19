@@ -11,7 +11,7 @@ export default function Project ({ data }) {
         <AppLayout>
             <Navbar/>
             <Banner img={img} />
-            <Title/>
+            <Title id={ data.id }/>
         </AppLayout>
     )
 }

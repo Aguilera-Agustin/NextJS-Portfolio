@@ -1,9 +1,9 @@
 import React from 'react'
 
-export const Divider = () => {
+export const Divider = ({ style }) => {
     return (
         <>
-            <hr/>
+            <hr style={ style }/>
             <style jsx>{`
                 hr{
                     color: #37352F;
