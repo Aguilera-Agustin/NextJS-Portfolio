@@ -26,19 +26,19 @@ export const Description = ({ id }) => {
                     display:flex;
                     flex-direction:column;
                     justify-content: center;
-                    width:50%;
+                    width:90%;
                     margin: 0 auto;
                 }
                 .description_title{
-                    flex:2;
+                    flex:1;
                     display:flex;
-                    justify-content:flex-end;
+                    justify-content:flex-start;
                     color: #37352F99;
                     font-weight:800;
                     line-height: 1.5;
                 }
                 .description_data{
-                    flex:4;
+                    flex:9;
                     color: rgba(55, 53, 47, 0.8);
                     line-height: 1.5;
                 }
@@ -57,6 +57,19 @@ export const Description = ({ id }) => {
                 }
                 a:hover{
                     color: rgba(55, 53, 47, 1);
+                }
+                @media screen and (min-width:768px){
+                    .container{
+                        width:50%;
+                        
+                    }
+                    .description_title{
+                        justify-content:flex-end;
+                        flex:2
+                    }
+                    .description_data{
+                        flex:4;
+                    }
                 }
             `}</style>
         </div>

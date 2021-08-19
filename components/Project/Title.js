@@ -13,7 +13,7 @@ export const Title = ({ id }) => {
                     ))
                 }
             </div>
-            <Divider style={{ width: '50%' }} />
+            <Divider style={{ width: '50%', marginBottom: '3rem' }} />
             <style jsx>{`
                 h3{
                     text-align: center;
