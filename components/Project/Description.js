@@ -6,7 +6,7 @@ export const Description = ({ id }) => {
     return (
         <div className='container'>
             <div className='description_container'>
-                <p className='description_title'>Description</p>
+                <p className='description_title'>Descripción</p>
                 <p className='description_data'>{ thisDescription.description }</p>
             </div>
             <div className='description_container'>
@@ -28,6 +28,7 @@ export const Description = ({ id }) => {
                     justify-content: center;
                     width:90%;
                     margin: 0 auto;
+                    gap: 3rem;
                 }
                 .description_title{
                     flex:1;
@@ -41,6 +42,7 @@ export const Description = ({ id }) => {
                     flex:9;
                     color: rgba(55, 53, 47, 0.8);
                     line-height: 1.5;
+                    font-size:0.9rem;
                 }
                 .description_container{
                     display:flex;
@@ -48,15 +50,15 @@ export const Description = ({ id }) => {
                 }
                 a{
                     display: block;
-                    margin-block-start: 1em;
-                    margin-block-end: 1em;
-                    margin-inline-start: 0px;
-                    margin-inline-end: 0px;
+                    margin: 0;
                     text-decoration: none;
                     transition: 0.2s ease all;
                 }
                 a:hover{
                     color: rgba(55, 53, 47, 1);
+                }
+                p{
+                    margin: 0;
                 }
                 @media screen and (min-width:768px){
                     .container{

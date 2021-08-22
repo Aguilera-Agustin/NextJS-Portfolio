@@ -2,7 +2,7 @@
 export const Contact = () => {
     return (
         <>
-            <p className='connect_text'>I like talking and discussing about design, psychology and new products in market. I am also available for freelance and internship opportunities. Lets catch up!</p>
+            <p className='connect_text'>Me gusta charlar y debatir sobre temas informáticos y nuevas tecnologías. También estoy disponible para oportunidades de trabajo</p>
             <p >agustin.aguilera424@gmail.com</p>
             <div className='blue_link_container'>
                 <div className='blue_link'>
@@ -37,7 +37,8 @@ export const Contact = () => {
                     width:70%;
                     padding: 1.3rem 1rem;
                     border-radius: 4px;
-                    font-weight: 500;
+                    font-weight: 800;
+                    color: #37352F;
                     font-size: 0.9rem;
                     margin-top:1rem;
                 }
