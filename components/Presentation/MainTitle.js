@@ -10,9 +10,7 @@ export const MainTitle = () => {
                     constante aprendimiento, deseando emprender nuevos desafíos.</p>
             </div>
             <div className='a_container'>
-                <Link href='AgustinAguileraCV.pdf'>
-                    <a>📃 CV</a>
-                </Link>
+                <a href='AgustinAguileraCV.pdf'>📃 CV</a>
                 <Link href='/about'>
                     <a>👨🏻 Sobre mí</a>
                 </Link>

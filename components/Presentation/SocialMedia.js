@@ -1,10 +1,18 @@
 export const SocialMedia = () => {
 	return (
 		<div className='blue_link_container'>
-			<div className='blue_link'>Linkedin</div>
-			<div className='blue_link'>Github</div>
-			<div className='blue_link'>Curriculum Vitae</div>
-			<div className='blue_link'>Email</div>
+			<a className='blue_link' href='https://www.linkedin.com/in/aguilera-agustin/'>
+				Linkedin
+			</a>
+			<a className='blue_link' href='https://github.com/Aguilera-Agustin'>
+				Github
+			</a>
+			<a className='blue_link' href='AgustinAguileraCV.pdf'>
+				Curriculum Vitae
+			</a>
+			<a className='blue_link' href='mailto:agustin.aguilera424@gmail.com'>
+				Email
+			</a>
 			<style jsx>{`
 				.blue_link_container {
 					width: 100%;
@@ -21,6 +29,11 @@ export const SocialMedia = () => {
 					color: #37352f;
 					font-size: 0.9rem;
 					margin-top: 1rem;
+					transition: 0.3s ease all;
+					text-decoration: none;
+				}
+				.blue_link:hover {
+					background: #ceebf7;
 				}
 				@media screen and (min-width: 768px) {
 					.blue_link_container {
