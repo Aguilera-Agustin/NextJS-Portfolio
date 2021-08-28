@@ -62,7 +62,7 @@ export const works = [
         title: 'Just List',
         img: justlist,
         abstract: 'Una aplicación orientada a la toma de notas rápidas, sin preocupaciones por el formato',
-        description: 'Aplicación para que un usuario final pueda pagar el precio en dolares declarado por el administrador, el cual podrá seleccionar los métodos de pagos deseados además del tiempo de duración de cada URL. - MercadoPago | Criptomonedas | Transferencia.',
+        description: 'JustList es la primer aplicación que construí utilizando el stack MERN, la cual se basa en la creación de notas rápidas, categorizadas y privadas. En JustList podrás crear notas sin preocuparte de formatos y precios. ',
         code: 'http://google.com',
         live: 'https://facebook.com',
         technologies: [{
@@ -91,7 +91,7 @@ export const works = [
         title: 'Reminder!',
         img: linkGenerator,
         abstract: '¿Necesitas un recordatorio ágil? Reminder: recordatorio utilizando whatsapp.',
-        description: 'Aplicación para que un usuario final pueda pagar el precio en dolares declarado por el administrador, el cual podrá seleccionar los métodos de pagos deseados además del tiempo de duración de cada URL. - MercadoPago | Criptomonedas | Transferencia.',
+        description: 'Bot de whatsapp hecho en una tarde, con el fin de poder crear recordatorios de una manera fácil y práctica. Este proyecto se hizo para entender y afianzar el conocimiento sobre cron-jobs y cron-expressions.',
         code: 'http://google.com',
         live: 'https://facebook.com',
         technologies: [{
@@ -107,8 +107,8 @@ export const works = [
         url: 'colins-study',
         title: 'ColinStudy',
         img: linkGenerator,
-        abstract: 'Aplicación educativa para profesores-estudiantes de programación a nivel universitario',
-        description: 'Aplicación para que un usuario final pueda pagar el precio en dolares declarado por el administrador, el cual podrá seleccionar los métodos de pagos deseados además del tiempo de duración de cada URL. - MercadoPago | Criptomonedas | Transferencia.',
+        abstract: 'Aplicación educativa para asignaturas de programación a nivel universitario',
+        description: 'Web APP orientada al mundo universitario, busca facilitar la evaluación y relación entre docente y estudiante, dentro del área informática. El alumno podrá realizar tareas, corregirle a sus pares, y tener un progreso supervisado por su docente.',
         code: 'http://google.com',
         live: 'https://facebook.com',
         technologies: [{

@@ -18,6 +18,7 @@ const About = () => {
 			`}</style>
 		</AppLayout>
 	)
+
 }
 
 export default About

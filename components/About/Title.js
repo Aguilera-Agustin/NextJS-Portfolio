@@ -12,14 +12,14 @@ export const Title = () => {
 					justify-content: center;
 					align-items: center;
 					gap: 5rem;
-					margin-top:5rem;
-					margin-bottom:1.5rem;
+					margin-top: 5rem;
+					margin-bottom: 1.5rem;
 				}
 				.title_container {
 					display: flex;
 					flex-direction: column;
 					justify-content: center;
-					align-items:center;
+					align-items: center;
 				}
 				h3 {
 					font-size: 2rem;
@@ -39,7 +39,6 @@ export const Title = () => {
 					background: red;
 					border-radius: 50%;
 				}
-				
 			`}</style>
 		</div>
 	)
