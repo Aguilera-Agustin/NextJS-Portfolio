@@ -1,6 +1,8 @@
 import linkGenerator from '../public/linkgenerator.png'
 import colinshifts from '../public/colinshifts.png'
 import justlist from '../public/justlist.png'
+import wpp from '../public/wpp.png'
+import colinstudy from '../public/colinstudy.png'
 
 export const works = [
     {
@@ -89,7 +91,7 @@ export const works = [
     {
         url: 'reminder',
         title: 'Reminder!',
-        img: linkGenerator,
+        img: wpp,
         abstract: '¿Necesitas un recordatorio ágil? Reminder: recordatorio utilizando whatsapp.',
         description: 'Bot de whatsapp hecho en una tarde, con el fin de poder crear recordatorios de una manera fácil y práctica. Este proyecto se hizo para entender y afianzar el conocimiento sobre cron-jobs y cron-expressions.',
         code: 'http://google.com',
@@ -106,11 +108,11 @@ export const works = [
     {
         url: 'colins-study',
         title: 'ColinStudy',
-        img: linkGenerator,
+        img: colinstudy,
         abstract: 'Aplicación educativa para asignaturas de programación a nivel universitario',
-        description: 'Web APP orientada al mundo universitario, busca facilitar la evaluación y relación entre docente y estudiante, dentro del área informática. El alumno podrá realizar tareas, corregirle a sus pares, y tener un progreso supervisado por su docente.',
-        code: 'http://google.com',
-        live: 'https://facebook.com',
+        description: 'Sitio en construccion.',
+        code: '/',
+        live: '/',
         technologies: [{
             name: 'React JS',
             color: '#E0D4F7'
