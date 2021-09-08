@@ -1,9 +1,9 @@
 import Image from 'next/image'
 
-export const Banner = ({ img }) => {
+export const Banner = ({ img, name }) => {
     return (
         <div>
-            <Image src={img} layout="fill" objectFit="cover" />
+            <Image src={img} layout="fill" objectFit="fill" objectPosition='inherit' className='img' alt={name}/>
             <style jsx>{`
                 div{
                     width:100%;
@@ -11,6 +11,9 @@ export const Banner = ({ img }) => {
                     display:block;
                     margin: 3rem auto;
                     position:relative;
+                    border-radius:10px;
+                }
+                .img{
                     border-radius:10px;
                 }
                 @media screen and (min-width:768px){

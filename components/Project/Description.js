@@ -9,18 +9,26 @@ export const Description = ({ id }) => {
                 <p className='description_title'>Descripción</p>
                 <p className='description_data'>{ thisDescription.description }</p>
             </div>
-            <div className='description_container'>
-                <p className='description_title'>Ver online</p>
-                <Link href={ thisDescription.live }>
-                    <a className='description_data'>{ thisDescription.live }</a>
-                </Link>
-            </div>
-            <div className='description_container'>
-                <p className='description_title'>Ver código</p>
-                <Link href={ thisDescription.code }>
-                    <a className='description_data'>{ thisDescription.code }</a>
-                </Link>
-            </div>
+            {
+                thisDescription.live&&(
+                    <div className='description_container'>
+                        <p className='description_title'>Ver online</p>
+                        <Link href={ thisDescription.live }>
+                            <a className='description_data'>{ thisDescription.live }</a>
+                        </Link>
+                    </div>
+                )
+            }
+            {
+                thisDescription.code&&(
+                    <div className='description_container'>
+                        <p className='description_title'>Ver código</p>
+                        <Link href={ thisDescription.code }>
+                            <a className='description_data'>{ thisDescription.code }</a>
+                        </Link>
+                    </div>
+                )
+            }
             <style jsx>{`
                 .container{
                     display:flex;

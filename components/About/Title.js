@@ -1,8 +1,12 @@
+import yo from '../../public/aguilera_agustin_real.jpg'
+import Image from 'next/image'
+
+
 export const Title = () => {
 	return (
 		<div className='container'>
 			<div className='title_container'>
-				<div className='img' />
+				<Image src={yo} width={200} height={250} alt='Agustin Aguilera'/>
 				<h3>Agustín Aguilera</h3>
 				<h6>Desarrollador web - mobile</h6>
 			</div>
@@ -25,6 +29,7 @@ export const Title = () => {
 					font-size: 2rem;
 					color: #37352f;
 					margin: 0;
+					margin-top:0.5rem
 				}
 				h6 {
 					font-size: 0.8em;
@@ -36,7 +41,7 @@ export const Title = () => {
 				.img {
 					width: 100px;
 					height: 100px;
-					background: red;
+					background: ${yo};
 					border-radius: 50%;
 				}
 			`}</style>
