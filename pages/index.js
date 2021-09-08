@@ -1,17 +1,14 @@
-import { AppLayout } from "../components/AppLayout/AppLayout"
-import { MainCard } from "../components/MainCard/MainCard"
-import { Description } from "../components/Description/Description"
-import { Portfolio } from "../components/Portfolio/Portfolio"
-import { Footer } from "../components/Footer/Footer"
+import { AppLayout } from '../components/AppLayout/AppLayout'
+import { Navbar } from '../components/Navbar'
+import Presentation from '../components/Presentation'
 
-
-export default function Home() {
-  return (
-   <AppLayout>
-     <MainCard/>
-     <Description/>
-     <Portfolio/>
-     <Footer/>
-   </AppLayout>
-  )
+export default function Home () {
+	return (
+		<>
+			<AppLayout>
+				<Navbar />
+				<Presentation />
+			</AppLayout>
+		</>
+	)
 }
