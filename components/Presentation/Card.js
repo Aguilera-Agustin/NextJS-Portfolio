@@ -31,7 +31,6 @@ export const Card = ({ work }) => {
                     transition: 0.3s ease all;
                     border: 1px solid #c9c9c9;
                     border-radius:4px;
-                    margin-bottom:1rem;
                     cursor:pointer;
                 }
                 .card_body_container{
