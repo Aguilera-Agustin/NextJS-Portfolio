@@ -3,7 +3,7 @@ import Image from 'next/image'
 export const Banner = ({ img, name }) => {
     return (
         <div>
-            <Image src={img} layout="fill" objectFit="fill" objectPosition='inherit' className='img' alt={name}/>
+            <Image src={img} layout="fill" objectFit="cover" objectPosition='inherit' className='img' alt={name}/>
             <style jsx>{`
                 div{
                     width:100%;
