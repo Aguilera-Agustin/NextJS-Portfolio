@@ -12,7 +12,7 @@ export const Card = ({ work }) => {
                         <h6>{work.title}</h6>
                         <div className='target_container'>
                             <Target style={{ marginRight: '10px' }} text='Personal' color='#F5D3E6'/>
-                            <Target color='#D6E1F8' text='WEB' />
+                            <Target color='#D6E1F8' text={`${work.mobile?'MOBILE':'WEB'}`} />
                         </div>
                         <p className='card_abstract'>{work.abstract}</p>
                     </div>

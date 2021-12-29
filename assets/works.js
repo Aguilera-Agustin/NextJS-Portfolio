@@ -8,8 +8,37 @@ import wpp from '../public/wpp.png'
 import wppBanner from '../public/wpp_banner.png'
 import colinstudy from '../public/colinstudy.png'
 import colinstudyBanner from '../public/colinstudy_banner.png'
+import miHuerta from '../public/miHuerta.png'
+import miHuertaBanner from '../public/miHuerta_banner.png'
 
 export const works = [
+    {
+        mobile: true,
+        url: 'mi_huerta',
+        title: 'Mi Huerta',
+        img: miHuerta,
+        banner: miHuertaBanner,
+        abstract: 'Aplicación que te ayudará a crear una huerta exitosa',
+        description: 'Podrás crear tu huerta personalizada, con consejos sobre cada una de las plantas. A demás, cuenta con la opción de Huerta Inteligente, que te recomendará una huerta exitosa llena de buenas asociaciones.',
+        live: 'https://play.google.com/store/apps/details?id=com.miHuerta.agustin.aguilera',
+        technologies: [{
+            name: 'React Native',
+            color: '#E0D4F7'
+        },
+        {
+            name: 'Redux',
+            color: '#D6E1F8'
+        },
+        {
+            name: 'Firebase',
+            color: '#FCECCE'
+        },
+        {
+            name: 'Typescript',
+            color: '#D6E1F8'
+        },
+        ]
+    },
     {
         url: 'link_generator',
         title: 'Link Generator',
